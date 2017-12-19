@@ -27,24 +27,24 @@ class WidgetJoypad : public WidgetBaseClass
     private:
         char pCmdSwitchTopic[64];
         uint8_t _Item = 0;
-        //·½Ïò¼ü
+        //æ–¹å‘é”®
         uint8_t _upKey;
         uint8_t _downKey;
         uint8_t _leftKey;
         uint8_t _rightKey;
-        //¹¦ÄÜ¼ü
+        //åŠŸèƒ½é”®
         uint8_t _fnKey1;
         uint8_t _fnKey2;
         uint8_t _fnKey3;
         uint8_t _fnKey4;
         uint8_t _fnKey5;
         uint8_t _fnKey6;
-        //Ò£¸Ë×ø±ê
+        //é¥æ†åæ ‡
         int _joystickX_7;
         int _joystickY_7;
         int _joystickX_8;
         int _joystickY_8;
-        
+
         char *_switchKey;
 
         void (*_EventCb)(void);
